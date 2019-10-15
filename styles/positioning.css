@@ -16,15 +16,17 @@ header {
 }
 
 .item1 {
-    width: 300px;
+    width: 500px;
     text-align: center;
-    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 #largeimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    align-self: center;
 }
 
 img {
